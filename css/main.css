@@ -91,22 +91,22 @@ html {
 body {
     background: #ffff;
     font-family: "Plus Jakarta Sans", sans-serif;
-};
+}
 
 /* I cannot get the header or main to take on display:flex or the base button styles */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-flow: column nowrap;
-};
+    padding: 1.5rem;
+}
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-};
+}
 
 button {
     color: #000000;
@@ -116,14 +116,54 @@ button {
     border-radius: 1em;
     padding: 1em;
     text-align: center;
- };
+ }
 
 /***** Header *****/
+.logo-image{
+  height: 30px;
+}
 
 .nav-btn {
     color: #ffffff;
     background-color: #13183F;
-};
+    border-style: none;
+    border-radius: 30px;
+    width: 140px;
+    height: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+/***** Main *****/
+.hero-container {
+  padding: 1rem 1.5rem 2.9rem 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #13183F;
+  font-weight: 800;
+  line-height: 50.4px;
+}
+
+.hero-container p {
+  padding: 1.6rem 0 1.5rem 0;
+  font-weight: 500;
+  color: #83869A;
+}
+
+.hero-section-btn {
+  border-radius: 45px;
+  border: none;
+  font-weight: 700;
+  color: #ffffff;
+  width: 167px;
+  height: 56px;
+  background: linear-gradient(0deg, #F02AA6, #FF6F48);
+  cursor: pointer;
+}
+
 
 
 
