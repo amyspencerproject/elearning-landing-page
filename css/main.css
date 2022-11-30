@@ -137,6 +137,8 @@ button {
 
 /***** Main *****/
 .hero-container {
+  /* display: flex; */
+  /* justify-content: center; */
   padding: 1rem 1.5rem 2.9rem 1.5rem;
 }
 
@@ -162,6 +164,13 @@ h1 {
   height: 56px;
   background: linear-gradient(0deg, #F02AA6, #FF6F48);
   cursor: pointer;
+}
+
+.hero-image {
+
+  width: 100%;
+  vertical-align: middle;
+  /* height: 100%; */
 }
 
 
